@@ -6,5 +6,9 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/lucas/Development/JAX-Jersey/jersey-json-1.18.3.jar"/>
+	<classpathentry kind="lib" path="/home/lucas/Development/JAX-Jersey/jersey-bundle-1.18.jar"/>
+	<classpathentry kind="lib" path="/home/lucas/Development/JAX-Jersey/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/lucas/Development/gson-2.8.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
