@@ -15,7 +15,7 @@ public class ParcelOptions {
 	@Consumes(MediaType.TEXT_PLAIN)
 	@Produces(MediaType.TEXT_PLAIN)
 	@Path("options")
-	public String registerRoom(String jsonOpt){
+	public String selectOptions(String jsonOpt){
 		Gson g = new Gson();
 		PickupOption opt = g.fromJson(jsonOpt, PickupOption.class);
 		
