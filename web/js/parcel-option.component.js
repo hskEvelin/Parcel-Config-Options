@@ -12,7 +12,7 @@ angular.
 	    		'<form class="w3-container" >'+
 	    			'<div class="w3-row" ng-repeat="option in $ctrl.options">'+
 	    				'<div class="w3-col m4 l9">'+
-	    					'<p><input class="w3-check" type="checkbox" ng-model="option.checked">'+
+	    					'<p><input class="w3-radio" type="radio" name="option" ng-model="option.checked">'+
 	    					'<label>{{option.name}}</label></p>'+
 	    				'</div>'+
 	    				'<div class="w3-col m8 l3"><p>{{option.price}} EUR</p></div>'+
@@ -33,7 +33,7 @@ angular.
           checked: false
         }
       ];
-      $rootScope.options = this.options;
+      $rootScope.parceloptions = this.options;
     }
   });
   

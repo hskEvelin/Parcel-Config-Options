@@ -1,4 +1,4 @@
-package service;
+package main.java;
 
 public class Address {
 	private String name;
